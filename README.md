@@ -25,8 +25,6 @@ AI-Hub/
 ├── .env.example # Sample environment variables
 └── README.md
 
-
-
 💻 Tech Stack
 -------------------------------------------------------
 Frontend: React, HTML, CSS, JavaScript
@@ -34,6 +32,50 @@ Backend: Node.js, Express
 Database: MongoDB
 AI Integration: Google Gemini API
 Authentication: JWT
+
+---
+
+## ⚙️ Setup Instructions
+------------------------------------------------------
+1. Clone the repository:
+
+IN bash 
+git clone https://github.com/yourusername/AI-Hub.git 
+cd AI-Hub
+
+2. Create your .env file:
+
+IN bash
+cp .env.example .env
+
+3. Fill in your real keys in .env:
+
+MONGO_URI=your_mongodb_connection_string_here
+JWT_SECRET=your_jwt_secret_here
+GEMINI_API_KEY=your_gemini_api_key_here
+PORT=5000
+
+5. Install dependencies:
+
+Backend:
+cd server
+npm install
+
+Frontend:
+cd ../client
+npm install
+
+6.Run the project:
+
+Backend:
+cd ../server
+npm run dev
+
+Frontend:
+cd ../client
+npm start
+----------------------------------------------------------------------------------------------
+
 
 
 🎬 Demo Video
