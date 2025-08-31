@@ -5,7 +5,7 @@ AI-Hub is a full-stack AI-powered document management platform. It allows users 
 ---
 
 ## 🚀 Features
-
+--------------------------------------------------------
 - **User Authentication:** Secure login and registration with JWT.
 - **Document Management:**
   - Create, edit, and delete documents
@@ -18,38 +18,40 @@ AI-Hub is a full-stack AI-powered document management platform. It allows users 
 ---
 
 ## 📂 Project Structure
-
+-------------------------------------------------------
 AI-Hub/
 ├── client/ # React frontend
 ├── server/ # Node.js backend
 ├── .env.example # Sample environment variables
 └── README.md
 
+
+
+💻 Tech Stack
+-------------------------------------------------------
+Frontend: React, HTML, CSS, JavaScript
+Backend: Node.js, Express
+Database: MongoDB
+AI Integration: Google Gemini API
+Authentication: JWT
+
+
 🎬 Demo Video
-
+-------------------------------------------------------
 The demo video showcases the full workflow:
-
 User login → Create document → Auto-summary + tags
-
 Semantic search
-
 Team Q&A
-
 Version history
 
-📌 Note: Due to large file size the video must be downloaded to view.
+Create and manage documents with automatic summaries and smart tagging
+Search semantically using natural language queries
+Collaborate through team Q&A for knowledge sharing
+Track version history to monitor document changes over time
 
 📌 Version History
 v1.0 – Initial demo release with full functionality showcased in demo video.
 
-💻 Tech Stack
 
-Frontend: React, HTML, CSS, JavaScript
-
-Backend: Node.js, Express
-
-Database: MongoDB
-
-AI Integration: Google Gemini API
-
-Authentication: JWT
+📌 Note: Due to large file size the video must be downloaded to view.
+[Download video](https://github.com/Pooja-AR18/AI-Hub/releases/download/v1.0/Screen.Recording.2025-08-31.220337.mp4)
