@@ -55,7 +55,7 @@ JWT_SECRET=your_jwt_secret_here
 GEMINI_API_KEY=your_gemini_api_key_here
 PORT=5000
 
-5. Install dependencies:
+4. Install dependencies:
 
 Backend:
 cd server
@@ -65,7 +65,7 @@ Frontend:
 cd ../client
 npm install
 
-6.Run the project:
+5.Run the project:
 
 Backend:
 cd ../server
