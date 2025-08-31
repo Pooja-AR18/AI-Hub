@@ -97,3 +97,8 @@ v1.0 – Initial demo release with full functionality showcased in demo video.
 
 📌 Note: Due to large file size the video must be downloaded to view.
 [Download video](https://github.com/Pooja-AR18/AI-Hub/releases/download/v1.0/Screen.Recording.2025-08-31.220337.mp4)
+
+
+📂 License
+
+This project is licensed under the MIT License.
